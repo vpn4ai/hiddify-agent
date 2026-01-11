@@ -1,0 +1,12 @@
+master_url: "http://MASTER_IP:9100"
+node_name: "hk-node-01"
+node_ip: "1.2.3.4"
+region: "HK"
+agent_version: "0.1.0"
+token_file: "/var/lib/hiddify-agent/token.json"
+poll_interval_sec: 60
+singbox_config_path: "/etc/sing-box/config.json"
+singbox_service_name: "sing-box"
+v2ray_api_addr: "127.0.0.1:8080"
+stats_poll_sec: 30
+report_window_sec: 600

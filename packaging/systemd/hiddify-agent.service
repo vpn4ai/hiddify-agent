@@ -1,0 +1,13 @@
+[Unit]
+Description=Hiddify Agent
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/hiddify-agent /etc/hiddify-agent/config.yaml
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
